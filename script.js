@@ -1,3 +1,6 @@
+//code
+// gets a random number from 1 - 20
+//const randomNumber = Math.floor(Math.random() * 20) + 1
 //step 1 : select element
 let randomNumber = Math.floor(Math.random() * 20) + 1 ;
 
