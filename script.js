@@ -49,4 +49,3 @@ document.querySelector('.again').addEventListener('click', function(){
 
 
 
-console.log(randomNumber);
