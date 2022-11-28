@@ -103,10 +103,13 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  border-radius: 15px;
 }
 
 .btn:hover {
-  background-color: #ccc;
+  background-color: rgb(88, 8, 58);
+  color: white;
+  transition-delay: 0.5s;
 }
 
 .message {
