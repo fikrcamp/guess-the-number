@@ -1,6 +1,6 @@
 //code
 // gets a random number from 1 - 20
-let randomNumber = 10
+let randomNumber = Math.floor(Math.random() * 20) + 1
 let score = 20
 let highScore = 0
 
@@ -38,7 +38,7 @@ document.querySelector(".check").addEventListener("click",function(){
 })
 
 document.querySelector(".again").addEventListener("click",function(){
-randomNumber = 10
+randomNumber = Math.floor(Math.random() * 20) + 1
 score = 20
 document.querySelector(".message").innerText = "Start you guessing"
 document.querySelector(".score").innerText = score
@@ -47,3 +47,5 @@ document.querySelector("body").style.background = ("black")
 document.querySelector(".guess").value = ''
 document.querySelector(".number").innerText = "?"
 })
+
+
